@@ -1,0 +1,86 @@
+basic:
+    name: 'https://www.ingka.com/'
+    environments:
+        production: 'https://www.ingka.com/'
+        staging: 'https://prod-gcp.site.ingka.com/'
+        development: ''
+    basicAuth:
+        production: { user: '', password: '' }
+        staging: { user: '', password: '' }
+        development: null
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /this-is-ingka-group
+        - /this-is-ingka-group/how-we-are-organised
+        - /this-is-ingka-group/board-members
+        - /what-we-do
+        - /what-we-do/ikea-retail
+        - /what-we-do/ingka-centres
+        - /what-we-do/ingka-investments
+        - /people-and-planet
+        - /people-and-planet/healthy-and-sustainable-living
+        - /people-and-planet/climate-circular-nature
+        - /people-and-planet/fair-equal
+        - /people-and-planet/climate-change-advocacy
+        - /people-and-planet/net-zero-transition-plan
+        - /reporting
+        - /reporting/better-homes
+        - /reporting/better-lives
+        - /reporting/better-planet
+        - /reporting/better-company
+        - /newsroom
+        - /newsroom/latest-news
+        - /newsroom/media-resources
+        - /newsroom/media-resources/reports
+        - /newsroom/faq
+        - /newsroom/rent-ride-and-roll-ikea-testing-do-it-yourself-delivery-solutions-for-urban-customers
+        - /newsroom/ikea-announces-a-bustling-programme-of-new-design-music-and-food-for-milan-design-week-2025
+        - /newsroom/ingka-investments-oxan-energy-and-avapa-energy-to-develop-offshore-wind-projects-in-italy
+        - /newsroom/ingka-builds-its-first-internally-developed-solar-park-in-south-carolina-74-9mwac
+        - /newsroom/ikea-advances-retail-innovation-with-24-7-pick-up-lockers
+        - /newsroom/ikea-opens-oxford-street-store-on-1st-may
+        - /privacy-notice
+        - /what-we-do/ingka-investments/business-acquisitions-venture-investments
+        - /what-we-do/ingka-investments/circular-investments
+        - /what-we-do/ingka-investments/financial-market-investments
+        - /what-we-do/ingka-investments/forestland-investments
+        - /what-we-do/ingka-investments/real-estate-investments
+        - /what-we-do/ingka-investments/renewable-energy-investments
+        - /one-home-one-planet
+        - /terms-of-use
+        - /cookie-policy
+        - /corporate-information
+        - /contact
+        - /raise-a-concern
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    sensitivity: 15
+    night_mode: false
+    retina_images: false
+    single_ip: false
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
