@@ -91,8 +91,8 @@ advanced:
         submit_selector: ''
         after_login_selector: ''
     performance:
-        workers_production: 30
-        workers_nonproduction: 10
+        workers_production: '5'
+        workers_nonproduction: '5'
         workers_production_delay: 0
         workers_nonproduction_delay: 0
     stabilize: true
